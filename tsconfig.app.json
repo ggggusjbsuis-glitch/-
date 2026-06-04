@@ -21,8 +21,10 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-    "include": ["src"],
-    "exclude": ["src/worker.ts"]
+      "include": ["src"],
+  "exclude": ["src/worker.ts"]
+}
+
 }
 
 }
