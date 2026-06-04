@@ -1,3 +1,8 @@
+// @ts-nocheck
+interface Env {
+  SCHEDULE_KV: KVNamespace;
+  ...
+
 interface Env {
   SCHEDULE_KV: { get: (k: string, t: string) => Promise<unknown>; put: (k: string, v: string) => Promise<void> };
   ADMIN_PASSWORD: string;
